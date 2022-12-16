@@ -7,8 +7,7 @@ function App() {
   return (
     <div>
       <h1>My Todos</h1>
-      <Todo text="First comp" />
-      <Todo text="Second comp" />
+      
       
     </div>
   );
