@@ -1,1 +1,1 @@
-#This a demo project calles expense tracker for learning react
+#This a demo project called expense tracker for learning react
