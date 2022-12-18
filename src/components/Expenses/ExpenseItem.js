@@ -7,7 +7,9 @@ import ExpenseDate from "./ExpenseDate";
 
 
 const ExpenseItem = (props) => {
-  
+  function eventHandler(){
+    alert("Hello!!!")
+  }
   return (
     <Card className="expense-item">
       <ExpenseDate date = {props.date}/>
@@ -15,6 +17,7 @@ const ExpenseItem = (props) => {
         <h2>{props.title}</h2>
         <div className="expense-item__price">{props.amount}</div>
       </div>
+      <button onClick={eventHandler}>Change Title</button>
     </Card>
   );
 }
