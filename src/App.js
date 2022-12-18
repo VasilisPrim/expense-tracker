@@ -1,12 +1,12 @@
 import React from "react";
 
-import Todo from "./components/Todo";
+import ExpenseItem from "./components/ExpenseItem";
 
 
 function App() {
   return (
     <div>
-      <h1>My Todos</h1>
+      <ExpenseItem></ExpenseItem>
       
       
     </div>
