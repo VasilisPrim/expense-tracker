@@ -20,14 +20,14 @@ const Expenses = (props)=> {
   
  
   return (
-    <li>
+    <div>
     
     <Card className="expenses">
     <ExpensesFilter selected = {year} onDataFromFilter={dataFromFilterHandler}/>   
     
       <ExpensesList items = {filteredExpenses}/>
     </Card>
-    </li>
+    </div>
   );
 }
 

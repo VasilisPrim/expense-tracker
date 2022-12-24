@@ -11,6 +11,7 @@ import ExpenseDate from "./ExpenseDate";
 
 const ExpenseItem = (props) => {
 return (
+  <li>
     <Card className="expense-item">
       <ExpenseDate date = {props.date}/>
       <div className="expense-item__description">
@@ -19,6 +20,7 @@ return (
       </div>
      
     </Card>
+    </li>
   );
 }
 
